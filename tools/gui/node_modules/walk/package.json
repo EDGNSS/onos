@@ -1,0 +1,49 @@
+{
+  "author": {
+    "name": "AJ ONeal",
+    "email": "coolaj86@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/coolaj86/node-walk/issues"
+  },
+  "contributors": [],
+  "dependencies": {
+    "foreachasync": "3.x"
+  },
+  "description": "A node port of python's os.walk",
+  "devDependencies": {},
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "homepage": "https://github.com/coolaj86/node-walk",
+  "keywords": [
+    "util",
+    "os",
+    "sys",
+    "fs",
+    "walk",
+    "walkSync"
+  ],
+  "lib": ".",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    },
+    {
+      "type": "Apache2",
+      "url": "http://opensource.org/licenses/apache2.0.php"
+    }
+  ],
+  "main": "./lib/walk.js",
+  "name": "walk",
+  "repository": {
+    "url": "git://github.com/coolaj86/node-walk.git"
+  },
+  "scripts": {
+    "test": "./test/walk-test.sh"
+  },
+  "url": "http://github.com/coolaj86/node-walk",
+  "version": "2.3.3"
+}

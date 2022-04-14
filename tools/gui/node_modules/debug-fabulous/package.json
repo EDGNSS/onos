@@ -1,0 +1,41 @@
+{
+  "author": {
+    "name": "Nicholas McCready"
+  },
+  "bugs": {
+    "url": "https://github.com/nmccready/debug-fabulous/issues"
+  },
+  "dependencies": {
+    "debug": "3.X",
+    "memoizee": "0.4.X",
+    "object-assign": "4.X"
+  },
+  "description": "visionmedia debug extensions rolled into one",
+  "devDependencies": {
+    "JSONStream": "1.X",
+    "chai": "4.X",
+    "eslint": "4.X",
+    "hook-std": "0.X",
+    "memwatch-next": "0.3.X",
+    "mocha": "4.X"
+  },
+  "homepage": "https://github.com/nmccready/debug-fabulous#readme",
+  "keywords": [
+    "debug",
+    "lazy",
+    "lazy-eval"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "debug-fabulous",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nmccready/debug-fabulous.git"
+  },
+  "scripts": {
+    "lint": "eslint !./node_modules *.js ./**/*.js",
+    "mocha": "mocha",
+    "test": "npm run lint && mocha ./test/**/*test.js ./test/*.test.js"
+  },
+  "version": "1.1.0"
+}

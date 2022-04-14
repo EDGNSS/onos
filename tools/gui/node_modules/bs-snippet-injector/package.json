@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Shane Osbourne"
+  },
+  "bugs": {
+    "url": "https://github.com/shakyShane/bs-snippet-injector/issues"
+  },
+  "description": "Write & Remove the BrowserSync Snippet to a file",
+  "devDependencies": {
+    "browser-sync": "2.4.0"
+  },
+  "homepage": "https://github.com/shakyShane/bs-snippet-injector",
+  "keywords": [
+    "browser",
+    "sync"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "bs-snippet-injector",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shakyShane/bs-snippet-injector.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.1"
+}

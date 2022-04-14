@@ -1,0 +1,26 @@
+{
+  "bugs": {
+    "url": "https://github.com/component/throttle/issues"
+  },
+  "component": {
+    "scripts": {
+      "throttle/index.js": "index.js"
+    }
+  },
+  "description": "Throttle a function",
+  "devDependencies": {
+    "mocha": "^1.18.0"
+  },
+  "homepage": "https://github.com/component/throttle#readme",
+  "keywords": [],
+  "license": "MIT",
+  "name": "throttleit",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/component/throttle.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,37 @@
+{
+  "author": {
+    "name": "James Coglan",
+    "email": "jcoglan@gmail.com",
+    "url": "http://jcoglan.com/"
+  },
+  "bugs": {
+    "url": "http://github.com/faye/faye-websocket-node/issues"
+  },
+  "dependencies": {
+    "websocket-driver": ">=0.3.6"
+  },
+  "description": "Standards-compliant WebSocket server and client",
+  "devDependencies": {
+    "jstest": "",
+    "pace": ""
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "homepage": "http://github.com/faye/faye-websocket-node",
+  "keywords": [
+    "websocket",
+    "eventsource"
+  ],
+  "license": "MIT",
+  "main": "./lib/faye/websocket",
+  "name": "faye-websocket",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/faye/faye-websocket-node.git"
+  },
+  "scripts": {
+    "test": "jstest spec/runner.js"
+  },
+  "version": "0.7.3"
+}

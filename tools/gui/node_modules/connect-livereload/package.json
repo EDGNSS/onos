@@ -1,0 +1,41 @@
+{
+  "author": {
+    "name": "Andi Neck",
+    "email": "andi.neck@intesso.com"
+  },
+  "bugs": {
+    "url": "https://github.com/intesso/connect-livereload/issues"
+  },
+  "contributors": [
+    {
+      "name": "Andi Neck",
+      "email": "andi.neck@intesso.com"
+    }
+  ],
+  "dependencies": {},
+  "description": "connect middleware for adding the livereload script to the response",
+  "devDependencies": {
+    "express": "~3.2.2",
+    "mocha": "~1.9.0",
+    "supertest": "~0.6.0"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/intesso/connect-livereload#readme",
+  "keywords": [
+    "connect",
+    "livereload",
+    "live-reload"
+  ],
+  "main": "index",
+  "name": "connect-livereload",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/intesso/connect-livereload.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "version": "0.4.1"
+}

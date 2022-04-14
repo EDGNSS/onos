@@ -1,0 +1,46 @@
+{
+  "author": {
+    "name": "Shuhei Kagawa",
+    "email": "shuhei.kagawa@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/babel/karma-babel-preprocessor/issues"
+  },
+  "description": "Preprocessor to compile ES6 on the fly with babel.",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/polyfill": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.4",
+    "karma-jasmine": "^2.0.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://github.com/babel/karma-babel-preprocessor",
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor",
+    "babel",
+    "6to5",
+    "es6",
+    "es2015"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "karma-babel-preprocessor",
+  "peerDependencies": {
+    "@babel/core": "7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babel/karma-babel-preprocessor.git"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "version": "8.0.1"
+}

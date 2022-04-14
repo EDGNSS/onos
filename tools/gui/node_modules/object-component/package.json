@@ -1,0 +1,14 @@
+{
+  "component": {
+    "scripts": {
+      "object/index.js": "index.js"
+    }
+  },
+  "description": "Object utils.",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "name": "object-component",
+  "version": "0.0.3"
+}

@@ -1,0 +1,20 @@
+{
+  "author": {
+    "name": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com"
+  },
+  "bin": {
+    "babel": "./lib/cli.js",
+    "babel-node": "./lib/cli.js",
+    "babel-external-helpers": "./lib/cli.js"
+  },
+  "description": "Turn ES6 code into readable vanilla ES5 with source maps",
+  "homepage": "https://babeljs.io/",
+  "license": "MIT",
+  "name": "babel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel"
+  },
+  "version": "6.23.0"
+}

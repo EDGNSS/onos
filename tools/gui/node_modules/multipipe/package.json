@@ -1,0 +1,23 @@
+{
+  "bugs": {
+    "url": "https://github.com/juliangruber/multipipe/issues"
+  },
+  "dependencies": {
+    "duplexer2": "0.0.2"
+  },
+  "description": "pipe streams with centralized error handling",
+  "devDependencies": {
+    "mocha": "~1.17.0"
+  },
+  "homepage": "https://github.com/juliangruber/multipipe#readme",
+  "license": "MIT",
+  "name": "multipipe",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliangruber/multipipe.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "0.1.2"
+}

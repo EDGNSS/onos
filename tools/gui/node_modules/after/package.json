@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Raynos",
+    "email": "raynos2@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Raynos/after/issues"
+  },
+  "contributors": [
+    {
+      "name": "Raynos",
+      "email": "raynos2@gmail.com",
+      "url": "http://raynos.org"
+    }
+  ],
+  "description": "after - tiny flow control",
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
+  "homepage": "https://github.com/Raynos/after#readme",
+  "keywords": [
+    "flowcontrol",
+    "after",
+    "flow",
+    "control",
+    "arch"
+  ],
+  "license": "MIT",
+  "name": "after",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Raynos/after.git"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd --reporter spec test/*.js"
+  },
+  "version": "0.8.2"
+}

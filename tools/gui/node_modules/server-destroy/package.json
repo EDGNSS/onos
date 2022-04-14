@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me"
+  },
+  "bugs": {
+    "url": "https://github.com/isaacs/server-destroy/issues"
+  },
+  "description": "Enable destroying a server, and all currently open connections.",
+  "gitHead": "71e22162bacb9368de045db4283f95f02194479b",
+  "homepage": "https://github.com/isaacs/server-destroy#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "server-destroy",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/server-destroy.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "version": "1.0.1"
+}

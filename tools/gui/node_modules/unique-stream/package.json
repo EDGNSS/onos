@@ -1,0 +1,34 @@
+{
+  "author": {
+    "name": "Eugene Ware",
+    "email": "eugene@noblesamurai.com"
+  },
+  "bugs": {
+    "url": "https://github.com/eugeneware/unique-stream/issues"
+  },
+  "description": "node.js through stream that emits a unique stream of objects based on criteria",
+  "devDependencies": {
+    "after": "~0.8.1",
+    "chai": "~1.7.2",
+    "mocha": "^1.18.2"
+  },
+  "homepage": "https://github.com/eugeneware/unique-stream#readme",
+  "keywords": [
+    "unique",
+    "stream",
+    "unique-stream",
+    "streaming",
+    "streams"
+  ],
+  "license": "BSD",
+  "main": "index.js",
+  "name": "unique-stream",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugeneware/unique-stream.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.0"
+}

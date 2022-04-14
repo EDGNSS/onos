@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "Conrad Pankoff",
+    "email": "deoxxa@fknsrs.biz",
+    "url": "http://www.fknsrs.biz/"
+  },
+  "bugs": {
+    "url": "https://github.com/deoxxa/duplexer2/issues"
+  },
+  "dependencies": {
+    "readable-stream": "~1.1.9"
+  },
+  "description": "Like duplexer (http://npm.im/duplexer) but using streams2",
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "~1.12.1"
+  },
+  "homepage": "https://github.com/deoxxa/duplexer2#readme",
+  "keywords": [
+    "duplex",
+    "stream",
+    "join",
+    "combine"
+  ],
+  "license": "BSD",
+  "main": "index.js",
+  "name": "duplexer2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deoxxa/duplexer2.git"
+  },
+  "scripts": {
+    "test": "mocha -R tap"
+  },
+  "version": "0.0.2"
+}

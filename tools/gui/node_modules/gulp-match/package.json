@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "Rob Richardson",
+    "url": "http://robrich.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/robrich/gulp-match/issues"
+  },
+  "dependencies": {
+    "minimatch": "^3.0.3"
+  },
+  "description": "Does a vinyl file match a condition?",
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "mocha": "^6.1.4",
+    "should": "^13.2.3"
+  },
+  "homepage": "https://github.com/robrich/gulp-match",
+  "keywords": [
+    "gulpfriendly",
+    "conditional",
+    "if",
+    "minimatch"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "gulp-match",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robrich/gulp-match.git"
+  },
+  "scripts": {
+    "test": "mocha && jshint ."
+  },
+  "version": "1.1.0"
+}

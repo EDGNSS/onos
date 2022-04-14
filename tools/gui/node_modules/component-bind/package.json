@@ -1,0 +1,26 @@
+{
+  "bugs": {
+    "url": "https://github.com/component/bind/issues"
+  },
+  "component": {
+    "scripts": {
+      "bind/index.js": "index.js"
+    }
+  },
+  "description": "function binding utility",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "homepage": "https://github.com/component/bind#readme",
+  "keywords": [
+    "bind",
+    "utility"
+  ],
+  "name": "component-bind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/component/bind.git"
+  },
+  "version": "1.0.0"
+}

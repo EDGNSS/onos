@@ -1,0 +1,37 @@
+{
+  "author": {
+    "name": "Twitter"
+  },
+  "bin": {
+    "bower": "bin/bower"
+  },
+  "bugs": {
+    "url": "https://github.com/bower/bower/issues"
+  },
+  "description": "The browser package manager",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "homepage": "http://bower.io",
+  "keywords": [
+    "bower"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --tab-width 4",
+      "git add"
+    ]
+  },
+  "main": "lib",
+  "name": "bower",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bower/bower.git"
+  },
+  "version": "1.8.8"
+}

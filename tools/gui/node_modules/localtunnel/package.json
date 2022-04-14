@@ -1,0 +1,34 @@
+{
+  "author": {
+    "name": "Roman Shtylman",
+    "email": "shtylman@gmail.com"
+  },
+  "bin": {
+    "lt": "./bin/client"
+  },
+  "bugs": {
+    "url": "https://github.com/localtunnel/localtunnel/issues"
+  },
+  "dependencies": {
+    "axios": "0.19.0",
+    "debug": "4.1.1",
+    "openurl": "1.1.1",
+    "yargs": "6.6.0"
+  },
+  "description": "expose localhost to the world",
+  "devDependencies": {
+    "mocha": "~1.17.0"
+  },
+  "homepage": "https://github.com/localtunnel/localtunnel#readme",
+  "license": "MIT",
+  "main": "./client.js",
+  "name": "localtunnel",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/localtunnel/localtunnel.git"
+  },
+  "scripts": {
+    "test": "mocha --ui qunit --reporter list --timeout 10000 -- test/index.js"
+  },
+  "version": "1.9.2"
+}

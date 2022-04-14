@@ -1,0 +1,23 @@
+{
+  "bugs": {
+    "url": "https://github.com/component/inherit/issues"
+  },
+  "component": {
+    "scripts": {
+      "inherit/index.js": "index.js"
+    }
+  },
+  "dependencies": {},
+  "description": "Prototype inheritance utility",
+  "homepage": "https://github.com/component/inherit#readme",
+  "keywords": [
+    "inherit",
+    "utility"
+  ],
+  "name": "component-inherit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/component/inherit.git"
+  },
+  "version": "0.0.3"
+}

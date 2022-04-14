@@ -1,0 +1,30 @@
+{
+  "author": {
+    "name": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeal/watch/issues"
+  },
+  "description": "Utilities for watching file trees.",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": [
+    "node >=0.1.95"
+  ],
+  "homepage": "https://github.com/mikeal/watch",
+  "main": "./main",
+  "name": "watch",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikeal/watch.git"
+  },
+  "tags": [
+    "util",
+    "utility",
+    "fs",
+    "files"
+  ],
+  "version": "0.11.0"
+}

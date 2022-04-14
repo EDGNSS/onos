@@ -1,0 +1,45 @@
+{
+  "author": {
+    "name": "Blaine Bublitz",
+    "email": "blaine@iceddev.com",
+    "url": "http://iceddev.com"
+  },
+  "bugs": {
+    "url": "https://github.com/gulpjs/gulplog/issues"
+  },
+  "contributors": [],
+  "dependencies": {
+    "glogg": "^1.0.0"
+  },
+  "description": "Logger for gulp and gulp plugins",
+  "devDependencies": {
+    "eslint": "^1.5.1",
+    "eslint-config-node-style-guide": "^1.0.1",
+    "jscs": "^2.1.1"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "homepage": "https://github.com/gulpjs/gulplog#readme",
+  "keywords": [
+    "gulp",
+    "gulp-util",
+    "log",
+    "logging"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "gulplog",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulpjs/gulplog.git"
+  },
+  "scripts": {
+    "test": "eslint index.js && jscs index.js"
+  },
+  "version": "1.0.0"
+}
